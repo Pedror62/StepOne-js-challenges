@@ -20,7 +20,7 @@ console.log(canDrive); //answer: true;
 // Faça uma variável com o nome de molhado (wet)
 // que precisa mudar de acordo com o valor de rain e umbrella. 
 // Complete o código:
-
+/*
 let rain = true;
 let umbrella = true;
 let wet;
@@ -30,7 +30,7 @@ if(rain && umbrella ) {
 } else {
     wet = ???;
 }
-
+*/
 // 3 - se a pessoa é estudante (student) ou é aposentado (retired),
 // ela pode ter desconto no ingresso do show (discount)
 

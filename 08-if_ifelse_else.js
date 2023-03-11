@@ -32,12 +32,12 @@ num1 is equal to num2: num 1 é igual ao num2
 // e deve aparecer essa resposta:
 
 function findLargest(num1, num2, num3) {
-    if () {
-        console.log();
-    } else if () {
-        console.log();
-    } else if () {
-        console.log();
+    if (num1 > num2 && num1 == num3) {
+        console.log(num1 + " is the largest number");
+    } else if (num2 > num1 && num2 > num3) {
+        console.log(num2 + "is the largest number");
+    } else if (num3 > num1 && num1 > num2) {
+        console.log(num3 + "is aqual to");
     } else {
         console.log();
     }

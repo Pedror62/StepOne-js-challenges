@@ -7,8 +7,9 @@
 // `Maria Silva` => `M.S.`
 // `Pedro Pedroso`  => `P.P`
 
-function abbrevName(firstName, lastName){
+//function abbrevName(firstName, lastName){
 	
+//	return 
+//}
 
-	return;
-}
+	

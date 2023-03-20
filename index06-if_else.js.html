@@ -8,16 +8,22 @@
 </head>
 <body>
     <script>
-        let examResult = 81
-        let note = 75 
+        let examResult = 71
 
-        if (examResult>=note ){
-            console.log(`'You passed the exam! sua nota e!' ${examResult}`);
+        let note = 75
 
-        } else{
-            console.log(`You didn't passed the exam! sua nota e!${examResult}`);
+        let media = 70
+
+
+       
+        if(note <= examResult){
+            console.log(`voce passou, sua nota e! ${examResult}`);
+        } else if (media == examResult ){
+            console.log(`voce não passou,pois tera recuperação voce atigiu e media que e de ${examResult}`)
+        } else if( note >=  media){
+            console.log(`voce não passou sua note e ${examResult}`)
         }
-
+        
     </script>
 
 
